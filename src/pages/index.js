@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import Seo from '../components/seo';
+import Twitter from '../components/twitter/twitter';
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +16,7 @@ const IndexPage = () => (
       </span>
     </h1>
     <p>Thanks for helping with our site!</p>
-    {/* <p>Let&#39;s build something great!</p> */}
+    <Twitter />{' '}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
