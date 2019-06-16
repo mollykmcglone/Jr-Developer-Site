@@ -16,7 +16,9 @@ const IndexPage = () => (
       </span>
     </h1>
     <p>Thanks for helping with our site!</p>
-    <Twitter />{' '}
+    <div style={{ display: 'flex' }}>
+      <Twitter />
+    </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
